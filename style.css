@@ -84,8 +84,8 @@ span,.footer-header{
     position: absolute;
     top:50%;
     left: 50%;
-    width: 70%;
-    height: 90%;
+    width: 60%;
+    height: 80%;
     transform:translate(-50%,-50%);
 }
 .popup span{
@@ -109,6 +109,10 @@ span,.footer-header{
     .navbar li a{
         font-size: 1rem!important;
     }
+    .carousel-item img{
+        height: 85vh;
+        object-fit: cover!important;
+    }
     .carousel-caption{
         bottom: 10vh!important;
     }
@@ -125,6 +129,11 @@ span,.footer-header{
     .carousel-caption button{
         font-size: 0.8rem!important;
     }
+    .popup img{
+        width: 85%;
+        height: 35%;
+    }
+    
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
