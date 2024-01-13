@@ -117,11 +117,7 @@ span,.footer-header{
         bottom: 10vh!important;
     }
     .carousel-caption h1{
-        font-size: 1.6rem!important;
-
-    }
-    .carousel-caption h2{
-        font-size:1.8rem!important;
+        font-size: 2rem!important;
     }
     .carousel-caption p{
         font-size: 1.4rem!important;
