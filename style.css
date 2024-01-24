@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 /*this is for the home navigation section*/
@@ -10,18 +11,36 @@
     font-weight: 700;
     font-size: 1.2rem;
 }
+.navbar li a:hover{
+    color:#f1dc4f!important;
+    transition: 0.1s;
+    font-size: 1.22rem;
+}
 .fixed-top{  
     position: absolute!important;
 }
+.carousel-inner{
+    position: relative!important;
+    display: block!important;
+}
 .carousel-caption{
-    bottom: 15vh!important;
+    position: absolute!important;
+    top:0!important;
+    left: 0!important;
+    width:100%;
+    height:100%;
+    background-color:rgba(2.5, 2.5, 2.5, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    line-height: 2rem!important;
 }
 .carousel img{
     height: 100vh!important;
-    min-height: 200px!important;
 }
 .carousel-control-next-icon,.carousel-control-prev-icon{
-    background-color:#eee!important;
+    background-color:#ddd!important;
 }
 /*this is for the contact us section*/
 .cardImage{
@@ -84,8 +103,8 @@ span,.footer-header{
     position: absolute;
     top:50%;
     left: 50%;
-    width: 60%;
-    height: 80%;
+    width: 70%;
+    height: 90%;
     transform:translate(-50%,-50%);
 }
 .popup span{
@@ -109,21 +128,25 @@ span,.footer-header{
     .navbar li a{
         font-size: 1rem!important;
     }
-    .carousel-item img{
-        height: 90vh!important;
+    ..carousel-inner{
+        height: 85vh;
         object-fit: cover!important;
     }
     .carousel-caption{
         bottom: 10vh!important;
     }
     .carousel-caption h1{
-        font-size: 2rem!important;
+        font-size: 1.6rem!important;
+
     }
     .carousel-caption p{
-        font-size: 1.4rem!important;
+        font-size: 1rem!important;
+    }
+    .carousel-caption{
+        padding: 5%;
     }
     .carousel-caption button{
-        font-size: 1.2rem!important;
+        font-size: 0.8rem!important;
     }
     .popup img{
         width: 85%;
